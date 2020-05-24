@@ -6,6 +6,11 @@
 <h2> How to run the script </h2>
 The job can be run using AWS's EMR platform where the cluster can be easily created to perform distributed computing using Spark.
 Once the cluster is awake, you can follow the steps to run the etl.py using AWS EMR service:
-<p>![Step1](images/add_step3.png)</p>
+<p>![Step1](https://github.com/erdemah/NanoDegree_DataLake/blob/master/images/addstep0.png)</p>
 <p>![Step 2](https://github.com/erdemah/NanoDegree_DataLake/blob/master/images/add_step3.png)</p>
 
+You can also run the spark job by connecting to the EMR's master node and run the following command using terminal:
+spark-submit etl.py
+
+<h3>Notes</h3>
+The data resides in S3. The copy of the data is added to the repository inside log-data and song_data folders.
