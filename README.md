@@ -8,3 +8,4 @@ The job can be run using AWS's EMR platform where the cluster can be easily crea
 Once the cluster is awake, you can follow the steps to run the etl.py using AWS EMR service:
 <p>![Step1](images/add_step3.png)</p>
 <p>![Step 2](https://github.com/erdemah/NanoDegree_DataLake/blob/master/images/add_step3.png)</p>
+
