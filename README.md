@@ -5,4 +5,5 @@
 
 <h2> How to run the script </h2>
 The job can be run using AWS's EMR platform where the cluster can be easily created to perform distributed computing using Spark.
-Once the cluster is awake, you can follow the steps to run the etl.py
+Once the cluster is awake, you can follow the steps to run the etl.py using AWS EMR service:
+![](image/step0.png)
